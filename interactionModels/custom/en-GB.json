@@ -1,0 +1,196 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "john\u0027s videos",
+      "intents": [
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AboutIntent",
+          "slots": [],
+          "samples": [
+            "about",
+            "what is this",
+            "tell me about this"
+          ]
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.LoopOnIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NextIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.PreviousIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.RepeatIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.ShuffleOnIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StartOverIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.LoopOffIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.ShuffleOffIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": [
+            "help me",
+            "how does this work",
+            "what should i do"
+          ]
+        },
+        {
+          "name": "ShowVideoIntent",
+          "slots": [
+            {
+              "name": "topic",
+              "type": "topic"
+            }
+          ],
+          "samples": [
+            "let me see something about {topic}",
+            "show me something about {topic}",
+            "let me see the {topic} video",
+            "show me the {topic} video",
+            "show the video about {topic}",
+            "let me see the video about {topic}",
+            "show the {topic}",
+            "show me the {topic}",
+            "show {topic}",
+            "do {topic}",
+            "perform {topic}",
+            "show me {topic}",
+            "let me see {topic}"
+          ]
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "list",
+                "synonyms": [
+                  "list of videos"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "swimming",
+                "synonyms": [
+                  "baby swimming",
+                  "swimming video",
+                  "learning to swim",
+                  "swim"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "train",
+                "synonyms": [
+                  "trains",
+                  "railway",
+                  "steam"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "snowman",
+                "synonyms": [
+                  "making a snowman",
+                  "snow",
+                  "Elodie\u0027s first snowman",
+                  "first snowman"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Theo",
+                "synonyms": [
+                  "Theo\u0027s third birthday",
+                  "first three years",
+                  "three years"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "any",
+                "synonyms": [
+                  "a video",
+                  "something about",
+                  "anything",
+                  "any video about",
+                  "either video",
+                  "any video",
+                  "surprise me",
+                  "you choose",
+                  "any one",
+                  "whatever",
+                  "I don\u0027t care",
+                  "random"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "baby",
+                "synonyms": [
+                  "little baby video",
+                  "tiny baby video",
+                  "newborn video",
+                  "baby video",
+                  "tiny baby",
+                  "little baby",
+                  "newborn"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "puppets",
+                "synonyms": [
+                  "puppet show",
+                  "puppets video",
+                  "puppet video",
+                  "puppet"
+                ]
+              }
+            }
+          ],
+          "name": "topic"
+        }
+      ]
+    }
+  },
+  "version": "37"
+}

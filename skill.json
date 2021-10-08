@@ -1,0 +1,71 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-GB": {
+          "summary": "A skill to show video clips of John and Leslie\u0027s grandchildren, Elodie and Theo.",
+          "examplePhrases": [
+            "Alexa, show John\u0027s grandchildren",
+            "Alexa, play John\u0027s grandchildren puppet show",
+            "play the puppet show"
+          ],
+          "keywords": [
+            "video"
+          ],
+          "name": "Elodie and Theo",
+          "description": "Sample Full Description",
+          "smallIconUri": "file://assets/images/en-GB_smallIconUri.png",
+          "largeIconUri": "file://assets/images/en-GB_largeIconUri.png"
+        }
+      },
+      "automaticDistribution": {
+        "isActive": false
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "Just try it out. What works and what doesn\u0027t?",
+      "category": "PODCAST",
+      "distributionMode": "PUBLIC",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:us-east-1:834818315010:function:ff9edc4a-17d8-4fe3-8a67-903864276337:Release_0"
+        },
+        "interfaces": [
+          {
+            "type": "VIDEO_APP"
+          }
+        ],
+        "regions": {
+          "EU": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:eu-west-1:834818315010:function:ff9edc4a-17d8-4fe3-8a67-903864276337:Release_0"
+            }
+          },
+          "NA": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-east-1:834818315010:function:ff9edc4a-17d8-4fe3-8a67-903864276337:Release_0"
+            }
+          },
+          "FE": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-west-2:834818315010:function:ff9edc4a-17d8-4fe3-8a67-903864276337:Release_0"
+            }
+          }
+        }
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "locales": {
+        "en-GB": {}
+      },
+      "containsAds": false,
+      "isExportCompliant": true,
+      "isChildDirected": false,
+      "usesPersonalInfo": false
+    }
+  }
+}
